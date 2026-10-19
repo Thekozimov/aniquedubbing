@@ -1,0 +1,19 @@
+{
+  "name": "anique-dubbing-bot",
+  "version": "2.0.0",
+  "description": "Anique Dubbing Telegram bot (Node.js + Supabase)",
+  "type": "module",
+  "main": "bot.js",
+  "engines": {
+    "node": ">=24.21.0"
+  },
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "grammy": "^1.30.0",
+    "pg": "^8.13.0"
+  }
+}

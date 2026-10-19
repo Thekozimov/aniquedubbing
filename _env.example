@@ -1,0 +1,8 @@
+BOT_TOKEN=123456789:YOUR_BOT_TOKEN
+ADMIN_IDS=123456789
+# Kanal username'i, masalan: @anique_dubbing (bot kanalda admin bo'lishi kerak)
+REQUIRED_CHANNEL=
+CHANNEL_URL=https://t.me/anique_dubbing
+# Supabase: Connect -> "Session pooler" (yoki Transaction pooler) connection string
+# Parolni [YOUR-PASSWORD] o'rniga qo'ying. Render uchun to'g'ridan-to'g'ri (db.xxx.supabase.co) ULANISH ISHLAMAYDI (IPv6), pooler ishlating.
+DATABASE_URL=postgresql://postgres.xxxxxxxx:PAROL@aws-0-xx.pooler.supabase.com:5432/postgres
